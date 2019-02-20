@@ -12,5 +12,5 @@ void TTGOLoRa::enable_sleep(){
 }
 
 bool TTGOLoRa::start(){
-    return LoRa.begin(868E6);
+    return LoRa.begin(915E6);
 }

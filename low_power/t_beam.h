@@ -16,6 +16,9 @@
 //onboard Lora chip management
 #include "ttgolora.h"
 
+#include <U8x8lib.h>
+#include <Wire.h>
+
 
 #define LED_PIN 14
 
